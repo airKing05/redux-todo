@@ -1,0 +1,73 @@
+body{
+    background: #ee7474;
+   
+}
+
+.mainContener{
+    background-image: linear-gradient(red, yellow) !important;
+    border: 2px solid blue;
+    padding: 50px -100px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 100px auto;
+}
+
+.mainContener h1 {
+    margin: 25px 0px;
+}
+.mainContener h4 {
+    margin: 15px 0px;
+}
+.mainContener h3 {
+    margin: 20px 0px;
+}
+.inputContener{
+    margin: 25px 0px;
+}
+.inputContener input{
+    padding: 10px 5px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(55, 83, 55);
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+}
+.addButton{
+    padding: 10px 5px;
+    border: 2px solid green;
+    background-color: green;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.showList{
+    display: flex;
+    /* justify-content: center; */
+    margin: 15px auto;
+    background: white;
+    width: 360px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.itemList{
+    color: darkslateblue;
+    margin-left: 10px !important;
+
+
+}
+.deleteList{
+    margin-left: 200px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.removeAll{
+    margin: 10px auto;
+}
+.removeAll button{
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
